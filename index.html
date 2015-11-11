@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+    <title></title>
+    
+    <!-- Scripts -->
+    <script type="text/javascript" src="fusioncharts/fusioncharts.js"></script>
+    <script type="text/javascript" src="angular-plugin/angular.min.js"></script>
+    <script type="text/javascript" src="angular-plugin/angular-fusioncharts.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    
+</head>
+<body>
+    <div ng-app="myApp" ng-controller="ex3Controller">
+        <div fusioncharts
+            width="600" 
+            height="400"
+            type="mscombi2d",
+            datasource="{{dataSource}}"
+            >
+        </div>
+    </div>
+</body>
+</html>
